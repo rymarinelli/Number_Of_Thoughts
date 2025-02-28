@@ -17,6 +17,18 @@ These contain the datasets used in the ablation studies.
  - deepseek = pd.read_parquet("hf://datasets/zrmarine/Chain_Of_Thought_Count_Ablation_Deepseek/data/train-00000-of-00001.parquet")
  - random_forest = pd.read_parquet("hf://datasets/zrmarine/DIA-Number-Of-Thoughts.csv/data/train-00000-of-00001.parquet")
 
+ - TinyR1 Responses are saved in TinyR1_Responses.yaml
+ - Deepseek Responses are saved in Deepseek_Responses.yaml
+
+The routing results are saved in 
+ - results_baseline_4.csv
+ - results_baseline_35.csv
+ - results_routing_35.csv
+ - results_routing_4.csv
+
+   The results show the two combinations of configurations. 
+
+
 # Pickled Objects 
 The trained model and a TF-IDF for processing are saved and can be loaded to 
  - joblib.dump(regressor, "thought_count_predictor.pkl")
