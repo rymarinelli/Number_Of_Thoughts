@@ -1,3 +1,14 @@
+# Introduction
+This repo contains Jupyternotebooks that link to Google Colab environments. The intermediate objects are hosted here with the key datasets hosted in Huggingface and in the datasets directory. 
+
+# Notebooks 
+Google Colab is used in this study to promote reproducbility.
+ - Number_Of_Thought_Labeling: Annotates https://huggingface.co/datasets/TIGER-Lab/MathInstruct. The resulting annotations are used to train the random forest
+ - Chain_Of_Thought_Analysis: Explores the usecases of using number of thoughts. It creates a classifer to detect malicious prompts and project injection.
+ - Chain_Of_Thought_Deep_Comparison: Evalutes differences in performance across quantized Deepseek models
+ - Number_Of_Thoughts_TinyR1: Evalautes TinyR1
+ - Number_Of_Thoughts_Comparsion: Statistical Tests and Analysis
+
 # Data
 
 The interminate dataset is hosted on Hugging Face. 
