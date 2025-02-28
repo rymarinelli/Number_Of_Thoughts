@@ -16,6 +16,7 @@ These contain the datasets used in the ablation studies.
  - tiny_rl  = pd.read_parquet("hf://datasets/zrmarine/Chain_Of_Thought_Count_TinyR1/data/train-00000-of-00001.parquet")
  - deepseek = pd.read_parquet("hf://datasets/zrmarine/Chain_Of_Thought_Count_Ablation_Deepseek/data/train-00000-of-00001.parquet")
  - random_forest = pd.read_parquet("hf://datasets/zrmarine/DIA-Number-Of-Thoughts.csv/data/train-00000-of-00001.parquet")
+  
 
  - TinyR1 Responses are saved in TinyR1_Responses.yaml
  - Deepseek Responses are saved in Deepseek_Responses.yaml
@@ -28,6 +29,9 @@ The routing results are saved in
 
    The results show the two combinations different thresholds tried in the number of thoughts. One attempts to segregate across three models(*_4.csv) and across 2 models(*_35.csv) The appended number is the threshold used in the study. 
 
+Additional Files
+- contains annotations used for the random forest pd.read_parquet("hf://datasets/zrmarine/Chain_Of_Thought_Count/data/train-00000-of-00001.parquet")
+- inference_results.csv is in an intermeidate csv with some additional processing 
 
 # Pickled Objects 
 The trained model and a TF-IDF for processing are saved and can be loaded to 
