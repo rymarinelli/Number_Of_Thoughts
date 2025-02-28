@@ -26,7 +26,7 @@ The routing results are saved in
  - results_routing_35.csv
  - results_routing_4.csv
 
-   The results show the two combinations of configurations. 
+   The results show the two combinations different thresholds tried in the number of thoughts. One attempts to segregate across three models(*_4.csv) and across 2 models(*_35.csv) The appended number is the threshold used in the study. 
 
 
 # Pickled Objects 
